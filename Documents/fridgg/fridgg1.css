@@ -4,9 +4,9 @@ h1{font-size:138.5%}h2{font-size:123.1%}h3{font-size:108%}h1,h2,h3{margin:1em 0}
 body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif}table{font-size:inherit;font:100%}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%}#yui3-css-stamp.cssfonts{display:none}
 .cls { zoom:1; } .cls:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
 
-body { width: 100%; height: 100%; background-color: #000000; }
+body { width: 100%; height: 100%; background-color: #191919; }
 header { height: 56px; padding: 0 30px 0 26px; background-color: #282828; }
-.maincontent { background-color: #000000; width: auto; height: auto;  }
+.maincontent { background-color: #191919; width: auto; height: auto;  }
 .navleft { float: left; }
 .logo { width: 108px; height: 40px; padding: 5px 0 5px 0; }
 .dropmenu { width: 43px; height: 40px; padding: 0 0 5px 10px; }
@@ -14,12 +14,19 @@ header { height: 56px; padding: 0 30px 0 26px; background-color: #282828; }
 .navright { float: right; padding: 10px 0 0 0; }
 .login { width: 145px; height: 36px; }
 .fb { width: 34px; height: 36px; padding: 0 0 0 10px; }
-.ptl ul li { float: left; padding: 24px 13px 0 13px; }
+.ptl ul {  }
+.ptl ul li { float: left; margin: 14px 0 0 0; padding: 10px 13px 10px 13px; border-color: #000000; border-style: solid; border-width: 1px 1px 1px 1px; border-top: 1px solid #454545; list-style: none; border-radius: 5px; }
+.ptl ul li a { color: #F7F7F7; font-size: 14px; font-weight: bolder; text-decoration: none;  }
+.ptl ul li a:active { color: #0D0D0D; }
 .twitface { float: right; padding: 33px 30px 0 0; }
+.twitter { width: 101px; height: 21px; padding: 0 0 3px 0; }
+.fblike { width: 51px; height: 28px; }
 .usersubmit { padding: 81px 13px 0 30px; }
 .usersubmit img { width: 345px; height: 216px; }
 .vlc ul li { float: left; padding: 8px 13px 15px 13px; }
-
-
-
+footer { height: 102px; border-top: 1px solid #000000; }
+.footleft ul li { float: left; list-style: none; padding: 10px 0 0 15px; font-size: 11px; }
+.footleft ul li a { text-decoration: none; color: #515151; }
+.footright a { float: right; list-style: none; padding: 10px 0 0 10px; }
+.copyright {color: #999999;  padding: 46px 0 0 30px; font-size: 12px; }
 
