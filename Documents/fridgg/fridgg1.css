@@ -14,19 +14,48 @@ header { height: 56px; padding: 0 30px 0 26px; background-color: #282828; }
 .navright { float: right; padding: 10px 0 0 0; }
 .login { width: 145px; height: 36px; }
 .fb { width: 34px; height: 36px; padding: 0 0 0 10px; }
-.ptl ul {  }
-.ptl ul li { float: left; margin: 14px 0 0 0; padding: 10px 13px 10px 13px; border-color: #000000; border-style: solid; border-width: 1px 1px 1px 1px; border-top: 1px solid #454545; list-style: none; border-radius: 5px; }
+.ptl {  }
+.ptl ul li { float: left; margin: 14px 0 0 0; padding: 10px 13px 10px 13px; border-color: #000000; border-style: solid; border-width: 1px 1px 1px 1px; border-top: 1px solid #454545; list-style: none; }
 .ptl ul li a { color: #F7F7F7; font-size: 14px; font-weight: bolder; text-decoration: none;  }
 .ptl ul li a:active { color: #0D0D0D; }
+.popular { border-radius: 5px 0 0 5px;  }
+.top { }
+.latest { border-radius: 0 5px 5px 0; }
 .twitface { float: right; padding: 33px 30px 0 0; }
 .twitter { width: 101px; height: 21px; padding: 0 0 3px 0; }
 .fblike { width: 51px; height: 28px; }
-.usersubmit { padding: 81px 13px 0 30px; }
-.usersubmit img { width: 345px; height: 216px; }
-.vlc ul li { float: left; padding: 8px 13px 15px 13px; }
+.usersubmit { width: 375px; height: 320px; margin: 10px 13px 20px 30px; float: left; background-color: #0B0B0B; border-radius: 5px; }
+.userimg { background-color: #0B0B0B; }
+.userimg img { width: 375px; height: 234px; }
+.userinfo { width: 375px; height: 67px; }
+.likethis { float: right; margin: 0 10px 20px 0; padding: 0 0 10px 0; }
+span img { width: 41px; height: 41px; }
+.ideatthat { }
+.vlc ul { height: 14px; float: right; margin: 7px 0 0 0; }
+.vlc ul li { float: left; margin: 0 13px 0 13px; list-style: none; }
+.vlc ul li a { color: #F7F7F7; font-weight: bolder; text-decoration: none; }
+.vlc ul li a p { float: right; padding-left: 2px; }
+.views { width: 23px; height: 14px; }
+.likes { width: 17px; height: 14px;  }
+.comments { width: 17px; height: 14px; }
+.usertitle { width: 375px; height: 45px; margin: 0 0 10px 0; }
+.usertitle a { text-decoration: none; color: #FFFFFF; }
+.titlename { width: 275px; height: 46px; }
+.titlename h2  { width: 205px; height: 17px; margin: 0 0 0 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 35px 0 0 0; font-size: 14px; color: #FFFFFF; }
+
+.titlename h3 { margin: 0 0 5px 0; padding: 3px 0 0 0; }
+.titlename h3 a { padding: 0 0 0 0; font-size: 12px; font-weight: normal; color: #575757; }
+.titlename h3 a:hover { color: #FFFFFF; }
+.userlogo { width: 45px; height: 45px; float: left; margin: 30px 10px 10px 10px; }
 footer { height: 102px; border-top: 1px solid #000000; }
 .footleft ul li { float: left; list-style: none; padding: 10px 0 0 15px; font-size: 11px; }
 .footleft ul li a { text-decoration: none; color: #515151; }
-.footright a { float: right; list-style: none; padding: 10px 0 0 10px; }
+.footlogo { width: 26px; height: 24px; }
+.footright ul { float: right; }
+.footright ul li { float: left; list-style: none; padding: 10px 0 0 0; }
+.footfb { padding-left: 10px; }
+.foottwit { padding-left: 10px; }
+.footpintrist { padding-left: 10px; }
+.footgoogle { padding-left: 10px; }
 .copyright {color: #999999;  padding: 46px 0 0 30px; font-size: 12px; }
 
